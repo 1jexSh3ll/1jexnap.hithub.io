@@ -6,7 +6,7 @@ categories:
 directory: 
 rating: 
 title: Windows command
-tags: [Cli Command Cheatsheet Windows Enumeration Exploitation]
+tags: [Cheatsheet Windows Enumeration Exploitation]
 ---
 # Windows command
 
