@@ -9,19 +9,16 @@ title: Windows command
 tags: [Cli Command Cheatsheet Windows Enumeration Exploitation]
 ---
 # Windows command
-TGS: #Cli #Command #Cheatsheet #Windows #Command/Cli #Enumeration #Exploitation 
-MOC: [[🗺MOC - Cheatsheet - Command]]
-
 
 ## Enumerate Registry
 
 ### Enumerate Registry keys related to password information
-```bash
+```powershell
 reg query HKLM /f password /t REG_SZ /s
 reg query HKCU /f password /t REG_SZ /s
 ```
 
 ### Enumerate for PuTTY credentials in the Registry
-```bash
+```powershell
 reg query HKCU\Software\SimonTatham\PuTTY\Sessions /t REG_SZ /s
 ```
