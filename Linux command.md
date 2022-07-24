@@ -9,8 +9,6 @@ title: Linux command
 tags: 
 ---
 # Linux command
-TGS: 
-MOC: [[🗺MOC - Cheatsheet - Command]]
 
 
 
@@ -39,8 +37,6 @@ sudo visudo
 sudo tcpdump -s 0 -An host 192.168.184.136 and port 514
 ```
 
-[[001-CheatSheet📋/🛠Tools/Tcpdump]]
-
 ## Misc
 
 ### Grep
@@ -48,6 +44,3 @@ sudo tcpdump -s 0 -An host 192.168.184.136 and port 514
 ```bash
 sudo grep -iP "184.136" /var/log/remote/test_wind_log | grep -iP "Microsoft-Windows-Sysmon" | grep -iP "Feb 10"
 ```
-
-
-## Auditd
